@@ -8,7 +8,6 @@ const bookmarkRoutes = require('./routes/bookmarks');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-// 
 mongoose.connect('mongodb+srv://shashiverma:xVJReikGGdROr5Qy@bookmarkmanager.zvyzf.mongodb.net/bookmarkManager', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
